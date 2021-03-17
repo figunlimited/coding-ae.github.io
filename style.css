@@ -1,0 +1,429 @@
+/* NavBar */
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-nav {
+    background-color:rgb(102, 101, 101) ;
+    opacity: 0.3;
+}
+ 
+.navbar-brand {
+    font-family: Viga;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.navbar-nav {
+    font-family: Raleway;
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+
+.text {
+    color: black;
+    font-weight: bolder;
+}
+
+/* Jumbotron */
+
+.bg-jumbotron {
+    background-image: url(img/bg.jpeg);
+    background-size: cover;
+    height: 583px;
+    text-align: center;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+}
+
+.jumbotron .container {
+    position: relative;
+    z-index: 1;
+}
+
+.bg-jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.7;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 230px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+    color: yellow;
+}
+
+.row .img-home {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.img-home {
+    width: 450px;
+    margin: auto;
+    border-radius: 40px;
+    
+}
+
+.row .col-md-5 {
+    margin-left: 40px;
+    width: 100px;
+    margin-right: 0%;
+}
+
+.txt-home {
+    color: rgb(53, 52, 52);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.txt-paragraph {
+    color: rgb(88, 88, 88);
+    margin-bottom: 50px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.text {
+    margin: auto;
+}
+.panel-about::after {
+    content: '';
+    display: block;
+    border-bottom: 5px solid gray;
+    border-radius: 20px;
+    width: 70px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.panel-about {
+    text-align: center;
+    font-size: 35px;
+}
+
+.border {
+    width: 1050px;
+}
+
+.margin-col1 {
+    margin-left:170px ;
+}
+
+.margin-col2 {
+    margin-left:170px ;
+}
+
+.margin-col3 {
+    margin-left:170px ;
+}
+
+.about-text {
+    font-size: 14px;
+    text-align: Justify;
+    color: rgb(53, 52, 52);
+    font-family: Viga ;
+    font-weight: normal;
+}
+
+.heading-txt {
+    font-size: 20px;
+    color: rgb(53, 52, 52);
+    margin-bottom: 30px;
+}
+
+.margin {
+    margin-bottom: 200px;
+}
+
+.margin-sec {
+    margin-bottom: 100px;
+}
+
+.bg-secon {
+    background: rgba(128, 128, 128, 0.137);
+}
+
+.card-a {
+    width: 300px;
+    margin-top: -20px;
+}
+
+.card-b {
+    width: 300px;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+.img-card {
+    margin: auto;
+}
+
+.card h1{
+    font-family: Viga;
+    font-size: 16px;
+    margin: auto;
+    color: rgb(97, 97, 97);
+    margin-bottom: 5px;
+}
+
+.card p{
+    font-size: 12px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.card .p2 {
+    text-align: center;
+}
+
+.btn-size {
+    text-transform: lowercase;
+    border-radius: 30px;
+    font-size: 12px;
+    margin: auto;
+    font-family: sans-serif;
+
+    
+}
+
+.icon {
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+
+.margin-team {
+    margin-bottom: 100px;
+}
+
+.card-body img {
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.media-body  {
+    margin-left: 50px;
+}
+
+.media-body h5 {
+    font-family: Viga;
+    font-size: 19px;
+    color: rgb(97, 97, 97);
+}
+
+.container .font {
+    font-family: Viga;
+    font-size: 35px;
+    color: rgb(97, 97, 97);
+}
+
+.container .text-second {
+    font-family: Viga;
+    font-size: 20px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 70px;
+}
+
+.media img {
+    width: 50px;
+    height: 50px;
+}
+
+
+label {
+    font-family: Viga;
+}
+
+input {
+    font-family: serif;
+    font-size: 12px;
+    text-transform: lowercase;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+textarea {
+    margin-bottom: 30px;
+}
+
+.contact h5 {
+    font-family: Viga;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+.contact p {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+
+.footer {
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: unset;
+    color: white;
+    
+    
+}
+
+.more-footer {
+    font-family: Viga;
+    font-size: 24px;
+    color: white;
+    margin-top: 25px;
+}
+
+.list-unstyled li {
+    margin-top: 5px;
+}
+
+.list-unstyled span {
+    font-size: 17px;
+    font-family: Viga;
+}
+
+.bg-custom {
+    background: rgb(27, 27, 27) ;
+    text-align: center;
+    
+}
+
+.copyright {
+    font-family: Viga;
+}
+
+.box-shdw {
+    box-shadow: 0px 0px 5px black;
+}
+
+.to-span span {
+    font-size: 15px;
+    font-family: Viga;
+    color: white;
+    margin-right: 5px;
+}
+
+
+
+
+/* Dekstop Version */
+
+@media (min-width: 992px) {
+    .navbar {
+        position: fixed;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.116) ;
+        box-shadow: 0px 0px 1px black;
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+        text-shadow: 1px 1px 1px black;
+        font-weight: bolder;
+    }
+    
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid green; 
+        width: 100%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+        box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.39);
+        
+    }
+
+    .navbar-nav{
+        font-size: 14px;
+    }
+
+    .bg-jumbotron {
+        margin-top: -75px;
+        height: 743px;
+    }
+    
+    .jumbotron .display-4 {
+        font-size: 60px ;
+    }
+
+    .navbar-brand, .nav-link {
+        color: yellow !important;
+    }
+
+    .navbar-brand h {
+        color:green !important;
+    }
+
+    .tebal {
+        border-bottom: 3px solid green;
+        margin-top: -20px;
+        border-radius: 20px;
+    }
+
+    .conten h1 {
+        color:rgb(63, 63, 63);
+    }
+
+    .about h1 {
+        margin-bottom: 30px;
+        color: rgb(63, 63, 63);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .row .col-md-5 {
+        margin-left: 130px;
+    }
+
+    .text {
+        margin-top: 70px;
+        margin-left: -70px;
+    }
+
+    .margin-col1 {
+        margin-left:130px ;
+    }
+    
+    .margin-col2 {
+        margin-left:135px ;
+    }
+    
+    .margin-col3 {
+        margin-left:130px ;
+    }
+}
+
+/* Buat Tombol */
+
+.tombol {
+    text-transform: uppercase;
+    border-radius: 30px;
+    font-size: 14px;
+    margin: auto;
+    font-family: Roboto Condensed;
+}
